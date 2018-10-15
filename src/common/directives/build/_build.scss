@@ -9,9 +9,9 @@
         border-radius: 5px;
         cursor: pointer;
         margin-top: 5px;
-        padding: 5px 10px 5px 5px;
+        padding: 5px 5px 5px 5px;
         position: relative;
-        white-space: nowrap;
+        min-height: 130px;
     }
 
     a,
@@ -29,7 +29,8 @@
         font-weight: bold;
         display: block;
         text-overflow: ellipsis;
-        font-size: 36px;
+        font-size: 22px;
+        line-height: 50px;
         z-index: 17;
         width: 100%;
         opacity: 0.5;
@@ -114,6 +115,7 @@
         }
         .build-name {
             color: black;
+
         }
         &.broken a {
             background-color: #888;
@@ -132,6 +134,7 @@
         }
         .build-name {
             color: #360;
+            font-size: 10px;
         }
         &.broken .build-name {
             color: #900;

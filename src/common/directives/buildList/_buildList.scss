@@ -1,7 +1,11 @@
+.build-list {
+    display: flex;
+}
+
 .build-list .no-services-message {
-    color: #F90;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 1em;
-    text-align: center;
+  color: #F90;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 1em;
+  text-align: center;
 }
