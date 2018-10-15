@@ -1,0 +1,75 @@
+[
+  {
+    "baseUrl": "teamcity",
+    "name": "Develop",
+    "projects": [
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_ImageUploader",
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_Logger",
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_WebCore",
+      "NgWeb_RealiNgEcho_ApplicationsTest_EchoUnitTest",
+      "NgWeb_RealiNgEcho_ApplicationsTest_WebAppUnitTest",
+      "NgWeb_E2eTests_EchoE2e",
+      "NgWeb_E2eTests_WebAppE2e",
+      "NgWeb_Deployments_EchoDeployment",
+      "NgWeb_Deployments_WebAppDeployment"
+    ],
+    "url": "http://141.226.20.85:8888",
+    "branch": "develop",
+    "updateInterval": 120
+  },
+  {
+    "baseUrl": "teamcity",
+    "name": "QA",
+    "projects": [
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_ImageUploader",
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_Logger",
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_WebCore",
+      "NgWeb_RealiNgEcho_ApplicationsTest_EchoUnitTest",
+      "NgWeb_RealiNgEcho_ApplicationsTest_WebAppUnitTest",
+      "NgWeb_E2eTests_EchoE2e",
+      "NgWeb_E2eTests_WebAppE2e",
+      "NgWeb_Deployments_EchoDeployment",
+      "NgWeb_Deployments_WebAppDeployment"
+    ],
+    "url": "http://141.226.20.85:8888",
+    "branch": "qa",
+    "updateInterval": 120,
+    "disabled": false
+  },
+  {
+    "baseUrl": "teamcity",
+    "name": "Staging",
+    "projects": [
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_ImageUploader",
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_Logger",
+      "NgWeb_RealiNgEcho_LibrariesTestAndBuild_WebCore",
+      "NgWeb_RealiNgEcho_ApplicationsTest_EchoUnitTest",
+      "NgWeb_RealiNgEcho_ApplicationsTest_WebAppUnitTest",
+      "NgWeb_E2eTests_EchoE2e",
+      "NgWeb_E2eTests_WebAppE2e",
+      "NgWeb_Deployments_EchoDeployment",
+      "NgWeb_Deployments_WebAppDeployment"
+    ],
+    "url": "http://141.226.20.85:8888",
+    "branch": "staging",
+    "updateInterval": 120
+  },
+  {
+    "baseUrl": "teamcity",
+    "name": "Production",
+    "projects": [
+      "ProdNgWeb_RealiNgEcho_LibrariesTestAndBuild_ImageUploader",
+      "ProdNgWeb_RealiNgEcho_LibrariesTestAndBuild_Logger",
+      "ProdNgWeb_RealiNgEcho_LibrariesTestAndBuild_WebCore",
+      "ProdNgWeb_RealiNgEcho_ApplicationsTest_EchoUnitTest",
+      "ProdNgWeb_RealiNgEcho_ApplicationsTest_WebAppUnitTest",
+      "ProdNgWeb_E2eTests_EchoE2e",
+      "ProdNgWeb_E2eTests_WebAppE2e",
+      "ProdNgWeb_Deployments_EchoDeployment",
+      "ProdNgWeb_Deployments_WebAppDeployment"
+    ],
+    "url": "http://141.226.20.85:8888",
+    "branch": "master",
+    "updateInterval": 120
+  }
+]
