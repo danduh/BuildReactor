@@ -65,7 +65,10 @@ const validateBuild = (build) => {
     return build;
 };
 
-const parseBuild = (id, settings, build) => ({
+const parseBuild = (id, settings, build) => {
+    console.log(id, settings, build)
+
+    return {
     id,
     name: build.buildType.name,
     group: build.buildType.projectName,
@@ -77,4 +80,4 @@ const parseBuild = (id, settings, build) => ({
         name: change.user ? change.user.username : change.username,
         message: change.comment.split('\n')[0]
     })) : []
-});
+}};

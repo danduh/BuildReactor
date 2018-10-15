@@ -27,6 +27,7 @@ module.directive('buildGroup', () => ({
         };
 
         const calculateWidth = function(config, items) {
+            console.log(items)
             const width = 100 / Math.min(items.length, config.columns);
             return `${width}%`;
         };

@@ -29,6 +29,7 @@ const builds = (id, settings) => request
         username: settings.username,
         password: settings.password
     })
+    .map((resp) => {console.log(resp); return resp;})
     .select((response) => response.body);
 
 export default {

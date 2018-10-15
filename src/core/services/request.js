@@ -35,6 +35,7 @@ const requestCallback = (options, callback) => {
 
 const get = (options) => Rx.Observable.fromNodeCallback(requestCallback)(options)
     .catch((ex) => Rx.Observable.throw(errors.create(ex, options)))
+    .map((resp)=>{console.log(resp); return resp;})
     .select((response) => ({
         body: response.body,
         headers: response.headers
