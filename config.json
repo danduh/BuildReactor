@@ -15,7 +15,7 @@
     ],
     "url": "http://141.226.20.85:8888",
     "branch": "develop",
-    "updateInterval": 120
+    "updateInterval": 10
   },
   {
     "baseUrl": "teamcity",
@@ -33,7 +33,7 @@
     ],
     "url": "http://141.226.20.85:8888",
     "branch": "qa",
-    "updateInterval": 120,
+    "updateInterval": 10,
     "disabled": false
   },
   {
@@ -52,7 +52,7 @@
     ],
     "url": "http://141.226.20.85:8888",
     "branch": "staging",
-    "updateInterval": 120
+    "updateInterval": 10
   },
   {
     "baseUrl": "teamcity",
@@ -70,6 +70,6 @@
     ],
     "url": "http://141.226.20.85:8888",
     "branch": "master",
-    "updateInterval": 120
+    "updateInterval": 10
   }
 ]
